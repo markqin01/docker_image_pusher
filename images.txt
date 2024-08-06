@@ -1,3 +1,5 @@
-nginx
-coredns/coredns
-redis:6.2.4
+#nginx
+#coredns/coredns
+#redis:6.2.4
+redis
+mysql
