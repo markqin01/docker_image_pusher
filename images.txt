@@ -4,4 +4,4 @@
 #redis
 #mysql
 
-minio:latest
+alpine
