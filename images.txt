@@ -8,4 +8,5 @@
 #busybox
 #minio:latest 有问题
 
-nginx:latest
+#nginx:latest
+minio/minio:latest
