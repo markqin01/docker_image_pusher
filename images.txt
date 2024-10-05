@@ -4,4 +4,4 @@
 #redis
 #mysql
 
-minio
+minio:latest
