@@ -6,4 +6,6 @@
 
 #alpine
 #busybox
-minio:latest
+#minio:latest 有问题
+
+nginx:letest
