@@ -9,4 +9,6 @@
 #minio:latest 有问题
 
 #nginx:latest
-minio/minio:latest
+#minio/minio:latest
+
+consul
