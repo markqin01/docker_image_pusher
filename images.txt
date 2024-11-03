@@ -11,4 +11,4 @@
 #nginx:latest
 #minio/minio:latest
 
-consul
+consul:1.15.4
