@@ -11,4 +11,6 @@
 #nginx:latest
 #minio/minio:latest
 
-consul:1.15.4
+#consul:1.15.4
+
+registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
