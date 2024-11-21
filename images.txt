@@ -1,27 +1,39 @@
-#nginx
-#coredns/coredns
-#redis:6.2.4
-#redis
-#mysql
+# -- 基础镜像
+centos:7
+#ubuntu:18.04
+#ubuntu:20.04
+#ubuntu:22.04
+#ubuntu:latest
+#alpine:latest
+#busybox:1.28
+#busybox:latest
 
-#alpine
-#busybox
-#minio:latest 有问题
-
+# -- 服务镜像
+#nginx:1.23
 #nginx:latest
+
+#redis:6.2.4
+#redis:latest
+
+#mysql:5.7.20
+#mysql:5.7.44
+#mysql:8.0.36
+#mysql:latest
+
+#minio/minio:RELEASE.2023-12-23T07-19-11Z
 #minio/minio:latest
-
-#consul:1.15.4
-
-#registry.k8s.io/ingress-nginx/controller:v1.8.4
-#registry.k8s.io/ingress-nginx/controller:v1.11.1
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
 
 #goharbor/prepare:v2.8.3
 #goharbor/prepare:v2.11.2
 
 #k8s.gcr.io/metrics-server/metrics-server:v0.3.7
 
-registry.k8s.io/ingress-nginx/controller:v1.8.0
-registry.k8s.io/ingress-nginx/controller:v1.11.3
-registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
+#registry.k8s.io/ingress-nginx/controller:v1.8.0
+#registry.k8s.io/ingress-nginx/controller:v1.8.4
+#registry.k8s.io/ingress-nginx/controller:v1.11.3
+#registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
+
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
+
+
+
