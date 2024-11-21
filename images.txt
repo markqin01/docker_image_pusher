@@ -17,5 +17,7 @@
 #registry.k8s.io/ingress-nginx/controller:v1.11.1
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
 
-goharbor/prepare:v2.8.3
-goharbor/prepare:v2.11.2
+#goharbor/prepare:v2.8.3
+#goharbor/prepare:v2.11.2
+
+k8s.gcr.io/metrics-server/metrics-server:v0.3.7
