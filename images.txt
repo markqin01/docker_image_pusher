@@ -1,9 +1,9 @@
 # -- 基础镜像
-centos:7
-#ubuntu:18.04
-#ubuntu:20.04
-#ubuntu:22.04
-#ubuntu:latest
+#centos:7
+ubuntu:18.04
+ubuntu:20.04
+ubuntu:22.04
+ubuntu:latest
 #alpine:latest
 #busybox:1.28
 #busybox:latest
