@@ -12,11 +12,11 @@
 #nginx:1.23
 #nginx:latest
 
-httpd:latest
-tomcat:latest
+#httpd:latest
+#tomcat:latest
 
-#redis:6.2.4
-#redis:latest
+redis:6.2.4
+redis:latest
 
 #mysql:5.7.20
 #mysql:5.7.44
