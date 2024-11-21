@@ -8,9 +8,12 @@
 #busybox:1.28
 #busybox:latest
 
-# -- 服务镜像
-nginx:1.23
-nginx:latest
+# -- 服务/环境镜像
+#nginx:1.23
+#nginx:latest
+
+httpd:latest
+tomcat:latest
 
 #redis:6.2.4
 #redis:latest
