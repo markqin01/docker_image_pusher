@@ -35,10 +35,10 @@
 #registry.k8s.io/ingress-nginx/controller:v1.8.4
 #registry.k8s.io/ingress-nginx/controller:v1.11.3
 #registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0 --已删除
-registry.k8s.io/ingress-nginx/controller:v1.12.1
+#registry.k8s.io/ingress-nginx/controller:v1.12.1
 
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2
 
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.1
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
@@ -50,6 +50,9 @@ registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2
 #registry.k8s.io/coredns/coredns:v1.11.3
 #registry.k8s.io/pause:3.9
 #registry.k8s.io/etcd:3.5.15-0
+
+ghcr.io/flannel-io/flannel:v0.26.7
+ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 
 # CKS
 #lizhenliang/ingress-nginx-controller:v1.8.0
